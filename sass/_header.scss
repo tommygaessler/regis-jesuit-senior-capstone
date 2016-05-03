@@ -1,0 +1,258 @@
+body#home:before, body#error:before {
+	content: "";
+  	position: fixed;
+  	left: 0;
+  	right: 0;
+  	z-index: -1;
+  
+  	display: block;
+  	background-image: url('images/background.jpg');
+	min-height: 100%;
+	overflow-y: hidden;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+  	
+  	&.blur
+  	{
+	  	-webkit-filter: blur(5px);
+	  	-moz-filter: blur(5px);
+	  	-o-filter: blur(5px);
+	  	-ms-filter: blur(5px);
+	  	filter: blur(5px);
+	}
+}
+
+body#home, body#error
+{
+
+	position: fixed;
+  	left: 0;
+  	right: 0;
+  	z-index: 0;
+  	min-height: 100%;
+	header
+	{
+		position: fixed;
+	    height: auto;
+	    width: 100%;
+
+	    .row
+	    {
+	    	border-bottom: 3px solid white;
+
+	    	#menuToggle
+			{
+				display: none;
+				position: absolute;
+				top: 20px;
+				right: 5%;
+				font-size: 20px;
+				float: right;
+				color: white;
+
+				&.toggled {
+					.genericon:before {
+						content: '\f406';
+					}
+				}
+
+				&:hover
+				{
+					color: white;
+				}
+
+				@include breakpoint(phone)
+				{
+					display: block;
+				}
+			}
+
+	    	img
+	    	{
+	    		width: 60px;
+	    		margin-top: 10px;
+	    		vertical-align: top;
+
+	    		// &:hover
+	    		// {
+	    		// 	content: url(images/logoBlack.png);
+	    		// }
+	    	}
+
+	    	h3
+		    {
+		    	float: left;
+		    	color: white;
+		    	font-family: 'Inconsolata', ;
+		    }
+
+		    nav
+		    {
+		    	float: right;
+		    	margin-top: 18.72px;
+		    	margin-bottom: 18.72px;
+		    	height: 21px;
+
+		    	a 
+		    	{
+		    		text-decoration: none;
+		    		color: white;
+		    		float: left;
+		    		margin-right: 10px;
+		    		font-family: 'Inconsolata', ;
+		    		&:last-of-type
+		    		{
+		    			margin-right: 0;
+		    		}
+
+		    		@include breakpoint(phone) 
+					{
+						display: block;
+						width: 100%;
+						padding: 5px;
+						margin-right: 0;
+					}
+		    	}
+
+		    	@include breakpoint(notphone)
+		    	{
+		    		display: inline !important;
+		    	}
+
+		    	@include breakpoint(phone) 
+				{
+
+					display: none;
+					height: 100%;
+					width: 100%;
+					margin-bottom: 0;
+					margin-top: 0;
+					border-top: 3px solid white;
+					float: none;
+					text-align: center;
+					// background: rgba(188, 201, 212, 0.7);
+
+					&.toggled
+					{
+						display: block;
+						float: left;
+						width: 100%;
+					}
+				}
+		    }
+	    }
+	}
+}
+
+body:not(#home):not(#error)
+{
+	header
+	{
+		position: fixed;
+	    height: auto;
+	    width: 100%;
+	    top: 0;
+	    // background: rgba(204, 204, 204, 0.5);
+	    z-index: 1;
+	    background: rgba(255, 255, 255, 0.85);
+
+	    .row
+	    {
+	    	border-bottom: 3px solid black;
+
+	    	#menuToggle
+			{
+				display: none;
+				position: absolute;
+				top: 20px;
+				right: 5%;
+				font-size: 20px;
+				float: right;
+				color: black;
+
+				&.toggled {
+					.genericon:before {
+						content: '\f406';
+					}
+				}
+
+				&:hover
+				{
+					color: black;
+				}
+
+				@include breakpoint(phone)
+				{
+					display: block;
+				}
+			}
+
+	    	img
+	    	{
+	    		width: 60px;
+	    		margin-top: 10px;
+	    		vertical-align: top;
+	    		content: url(images/logoBlack.png);
+	    	}
+
+	    	h3
+		    {
+		    	float: left;
+		    	color: black;
+		    	font-family: 'Inconsolata', ;
+		    }
+
+		    nav
+		    {
+		    	float: right;
+		    	margin-top: 18.72px;
+		    	margin-bottom: 18.72px;
+		    	height: 21px;
+
+		    	a 
+		    	{
+		    		text-decoration: none;
+		    		color: black;
+		    		float: left;
+		    		margin-right: 10px;
+		    		font-family: 'Inconsolata', ;
+		    		&:last-of-type
+		    		{
+		    			margin-right: 0;
+		    		}
+
+		    		@include breakpoint(phone) 
+					{
+						display: block;
+						width: 100%;
+						padding: 5px;
+					}
+		    	}
+
+		    	@include breakpoint(notphone)
+		    	{
+		    		display: inline !important;
+		    	}
+
+		    	@include breakpoint(phone) 
+				{
+
+					display: none;
+					height: 100%;
+					float: none;
+					text-align: center;
+					margin-bottom: 0;
+					margin-top: 0;
+					border-top: 3px solid black;
+					&.toggled
+					{
+						display: block;
+						float: left;
+						width: 100%;
+					}
+				}
+		    }
+	    }
+	}
+}

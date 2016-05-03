@@ -1,0 +1,150 @@
+body#home, body#error
+{
+	footer
+	{
+		position: fixed;
+	    height: auto;
+	    width: 100%;
+	    // background: rgba(204, 204, 204, 0.5);
+	    z-index: 1;
+	    bottom: 0px;
+
+	    .row
+	    {
+	    	border-top: 3px solid white;
+
+	    	a
+		    {
+		    	text-decoration: none;
+
+		    	h3
+			    {
+			    	color: white;
+			    	float: left;
+			    	font-family: 'Inconsolata', ;
+			    	text-decoration: none;
+
+			    	@include breakpoint(phone)
+		    		{
+		    			text-align: center;
+		    			width: 100%;
+		    			float: none;
+		    			margin-top: 10px;
+		    			margin-bottom: 0;
+		    		}
+			    }
+		    }
+
+		    nav
+		    {
+		    	float: right;
+		    	margin-top: 18.72px;
+		    	margin-bottom: 18.72px;
+		    	height: 21px;
+		    	a 
+		    	{
+		    		float: left;
+		    		color: white;
+		    		text-decoration: none;
+		    		margin-right: 10px;
+		    		font-family: 'Inconsolata', ;
+		    		&:last-of-type
+		    		{
+		    			margin-right: 0;
+		    		}
+
+		    		@include breakpoint(phone)
+		    		{
+		    			text-align: center;
+		    			float: none;
+		    		}
+		    	}
+
+		    	@include breakpoint(phone)
+	    		{
+	    			float: none;
+	    			text-align: center;
+	    			margin-top: 10px;
+	    			margin-bottom: 10px;
+	    		}
+		    }
+	    }
+	}
+}
+
+
+
+body:not(#home):not(#error)
+{
+	footer
+	{
+		position: relative;
+	    // height: auto;
+	    // width: 100%;
+	    // background: rgba(204, 204, 204, 0.5);
+	    // z-index: 1;
+	    // bottom: 0px;
+
+	    .row
+	    {
+	    	border-top: 3px solid black;
+
+	    	a
+		    {
+		   		text-decoration: none;
+		   		color: black;
+
+		   		h3
+			    {
+			    	color: black;
+			    	float: left;
+			    	font-family: 'Inconsolata', ;
+			    	text-decoration: none;
+
+			    	@include breakpoint(phone)
+		    		{
+		    			text-align: center;
+		    			width: 100%;
+		    			float: none;
+		    			margin-top: 10px;
+		    			margin-bottom: 0;
+		    		}
+			    }
+		   	}
+
+		    nav
+		    {
+		    	float: right;
+		    	margin-top: 18.72px;
+		    	margin-bottom: 18.72px;
+		    	height: 21px;
+		    	a 
+		    	{
+		    		float: left;
+		    		color: black;
+		    		text-decoration: none;
+		    		margin-right: 10px;
+		    		font-family: 'Inconsolata', ;
+		    		&:last-of-type
+		    		{
+		    			margin-right: 0;
+		    		}
+
+		    		@include breakpoint(phone)
+		    		{
+		    			text-align: center;
+		    			float: none;
+		    		}
+		    	}
+
+		    	@include breakpoint(phone)
+	    		{
+	    			float: none;
+	    			text-align: center;
+	    			margin-top: 10px;
+	    			margin-bottom: 10px;
+	    		}
+		    }
+	    }
+	}
+}

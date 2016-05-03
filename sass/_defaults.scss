@@ -1,0 +1,151 @@
+/*----- Body Styles -----*/
+
+*
+{
+	box-sizing: border-box;
+}
+
+body:not(#home), html
+{
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+body 
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', helvetica, sans-serif;
+}
+
+body main img:not(.logo)
+{
+	max-width: 100%;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+}
+
+.logo
+{
+	max-width: 100%;
+}
+
+hr
+{
+	margin: 40px 0;
+	border-color: black;
+}
+
+/*----- iframe -----*/
+
+iframe
+{
+	width: 100%;
+    margin-top: 18.72px;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+}
+
+.video-container
+{
+ 	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.2);
+
+    iframe
+	{
+		position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    margin-top: 0;
+	}
+}
+
+/*----- margin fixes -----*/
+
+.no-margin-top
+{
+	margin-top: 0;
+}
+
+.no-margin-top-mobile
+{
+	@include breakpoint (phone)
+	{
+		margin-top: 0;
+	}
+}
+
+.margin-top
+{
+	margin-top: 20px;
+}
+
+.margin-top-mobile
+{
+	@include breakpoint(phone)
+	{
+		margin-top: 20px;
+	}
+}
+
+.no-margin-bottom
+{
+	margin-bottom: 0;
+}
+
+.no-margin-bottom-mobile
+{
+	@include breakpoint (phone)
+	{
+		margin-bottom: 0;
+	}
+}
+
+.margin-top-tablet
+{
+	@include breakpoint(tablet)
+	{
+		margin-top: 20px;
+	}
+}
+
+.no-margin-bottom-nottablet
+{
+	@include breakpoint(nottablet)
+	{
+		margin-bottom: 0;
+	}
+}
+
+.no-margin-bottom-tablet
+{
+	@include breakpoint(tablet)
+	{
+		margin-bottom: 0;
+	}
+}
+
+.margin-bottom-tablet
+{
+	@include breakpoint(tablet)
+	{
+		margin-bottom: 20px;
+	}
+}
+
+.margin-bottom
+{
+	margin-bottom: 20px;
+}
+
+.margin-bottom-mobile
+{
+	@include breakpoint(phone)
+	{
+		margin-bottom: 20px;
+	}
+}
