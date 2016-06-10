@@ -51,11 +51,11 @@
 
             <a href="index.php"><img src="images/logo.png" alt="Regis Jesuit"></a>
             <nav>
-                <a href="growth.php">Growth</a>
-                <a href="competence.php">Competence</a>
-                <a href="religious.php">Religious</a>
-                <a href="loving.php">Loving</a>
-                <a href="justice.php">Justice</a>
+                <a href="growth">Growth</a>
+                <a href="competence">Competence</a>
+                <a href="religious">Religious</a>
+                <a href="loving">Loving</a>
+                <a href="justice">Justice</a>
 
             </nav>
         </div>
