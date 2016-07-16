@@ -364,7 +364,8 @@ body#home, body#error {
         right: 5%;
         font-size: 20px;
         float: right;
-        color: white; }
+        color: white;
+        height: 16px; }
         body#home header .row #menuToggle.toggled .genericon:before, body#error header .row #menuToggle.toggled .genericon:before {
           content: '\f406'; }
         body#home header .row #menuToggle:hover, body#error header .row #menuToggle:hover {
