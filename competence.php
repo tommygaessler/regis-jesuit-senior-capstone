@@ -29,7 +29,6 @@
 			<p class="no-margin-top">I become a competent photographer.</p>
 			<p>I showed up to class the day of the parade. Regis had already given us an early dismissal, but no one was at school! I was one of four people in first period! I left right when second started and headed downtown to join the millions of people attending the parade.</p>
 			<p>It was a happy day, Jacob was accepted to CU, and I got to be with my best friends, and see the best football team in the world.</p>
-			
 		</div>
 		<div class="column one-half">
 			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thanks to early dismissal, RJ students celebrating <a href="https://twitter.com/Broncos">@Broncos</a> victory! Photo by <a href="https://twitter.com/tommygaessler">@tommygaessler</a> RJ &#39;16 <a href="https://t.co/9TZx7bjVz7">pic.twitter.com/9TZx7bjVz7</a></p>&mdash; RJ MEDIA (@RJ_Media) <a href="https://twitter.com/RJ_Media/status/697177231290793984">February 9, 2016</a></blockquote>
