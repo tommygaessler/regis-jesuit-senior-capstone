@@ -24,7 +24,7 @@
     <!-- Twitter Cards -->
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@tommygaessler"> 
+    <meta name="twitter:site" content="@tommygaessler">
     <meta name="twitter:title" content="<?php echo $capstone; ?> | <?php echo $pageTitle; ?>">
     <meta name="twitter:description" content="<?php echo $description; ?>">
     <meta name="twitter:image" content="<?php echo $image; ?>">
@@ -34,9 +34,10 @@
     <meta property="og:title" content="<?php echo $capstone; ?> | <?php echo $pageTitle; ?>" />
     <meta property="og:description" content="<?php echo $description; ?>" />
     <meta property="og:image" content="<?php echo $image; ?>" />
-    <meta property="og:type" content="article" />
-    <meta property="article:author" content="Tommy Gaessler" />
-    <meta property="og:site_name" content="tommygaessler.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://capstone.tommygaessler.com" />
+    <meta property="fb:app_id" content="678988888930195" />
+    <meta property="og:site_name" content="Senior Capstone" />
 
 </head>
 <?php if(!empty($postID)) : ?>
