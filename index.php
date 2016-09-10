@@ -5,8 +5,8 @@
 
 <main>
 	<div class="row">
-        <h1>Senior <span>Capstone</span></h1>
-    </div>
+    <h1>Senior <span>Capstone</span></h1>
+  </div>
 </main>
 
 <?php include 'footer.php'; ?>

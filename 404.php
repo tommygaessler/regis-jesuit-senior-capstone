@@ -5,8 +5,8 @@
 
 <main>
 	<div class="row">
-        <h1>Page Not <span style="color: #D91E36">Found</span></h1>
-    </div>
+    <h1>Page Not <span style="color: #D91E36">Found</span></h1>
+  </div>
 </main>
 
 <?php include 'footer.php'; ?>
