@@ -73,7 +73,7 @@
 
 		<p>I always loved technology, and was good with computers. I took every class at Regis related to coding and computers, but I was never challenged enough. Next thing I knew I was taking classes four days a week after school at Galvanize. I learned how to make professional looking websites, use API's, build little web applications, and integrate WordPress in my sites! I was ready to make money!</p>
 
-		<p>My first client, and all my clients so far have come to me. Mr. Katz walked in to my broadcasting class one day asking for videos for his new non-profit Suit Up Denver. I asked if he had a website and <a href="http://suitupdenver.org/" target="blank">suitupdenver.org</a> was born. A partnership and friendship was also born. Jason Lewis and I bonded immediately, we talked about entrepreneurship, shared the same dreams, and oh, worked incredibly well together. But we hadn't quite put the two pieces together.</p>
+		<p>My first client, and all my clients so far have come to me. Mr. Katz walked in to my broadcasting class one day asking for videos for his new non-profit Suit Up Denver. I asked if he had a website and <a href="https://suitupdenver.herokuapp.com" target="blank">Suitup Denver</a> was born. A partnership and friendship was also born. Jason Lewis and I bonded immediately, we talked about entrepreneurship, shared the same dreams, and oh, worked incredibly well together. But we hadn't quite put the two pieces together.</p>
 
 		<p>I was helping my moms coworker on her existing website, and I happened to show them Suit Up Denver. 20 minutes later I got Jason on the phone and said, "I just got you a job." We sold them on a completely new website, with videos to go along with it. The light bulb went off, our web design and video/media consulting company was born! I was finally my own boss!</p>
 
@@ -198,10 +198,10 @@
 		<p>Fall came around and I was on a plane to Orlando. It was my last chance to be recognized as a high school photographer. I submitted these 8 photos. Click on them, I added a light-box!</p>
 
 		<div class="gallery-roll">
-            <?php 
+            <?php
             $images = scandir('images/growth/jea');
-            
-            foreach($images as $image) 
+
+            foreach($images as $image)
             {
                 if (pathinfo($image, PATHINFO_EXTENSION) == "jpg")
                 {
@@ -215,7 +215,7 @@
     </div>
     <div class="row">
 
-		<p class="no-margin-top">We were flying back to Denver the morning of the award ceremony. I remember sitting in the lobby at 8:00 am, with Mason Stragey. We were eating our breakfast, a pint of strawberry ice-cream. Nathan Shutts gets a text from a girl he met the night before saying that "Hey that Tommy Gaessler kid just won an award!" She was at the ceremony, and Mason and I ran down to the massive room where it was being held! I walked up the center isle and received my award with a pint of ice-cream in my left hand. I got the excellence in photo portfolio award! It was a second place award out of hundreds, maybe thousands of submissions.</p> 
+		<p class="no-margin-top">We were flying back to Denver the morning of the award ceremony. I remember sitting in the lobby at 8:00 am, with Mason Stragey. We were eating our breakfast, a pint of strawberry ice-cream. Nathan Shutts gets a text from a girl he met the night before saying that "Hey that Tommy Gaessler kid just won an award!" She was at the ceremony, and Mason and I ran down to the massive room where it was being held! I walked up the center isle and received my award with a pint of ice-cream in my left hand. I got the excellence in photo portfolio award! It was a second place award out of hundreds, maybe thousands of submissions.</p>
 
 		<img src="images/growth/award.jpg" alt="Tommy Gaessler holding excellence award">
 
