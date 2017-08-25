@@ -49,7 +49,7 @@
 
       <a id="menuToggle"><span class="genericon genericon-menu"></span></a>
 
-      <a href="index.php"><img src="images/logo.png" alt="Regis Jesuit"></a>
+      <a href="/"><img src="images/logo.png" alt="Regis Jesuit"></a>
       <nav>
         <a href="growth.php">Growth</a>
         <a href="competence.php">Competence</a>

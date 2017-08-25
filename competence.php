@@ -75,7 +75,7 @@
 
 		<p>I was able to connect my love of coding with my love of instagram by making my first app! Check it out!</p>
 
-		<p><a href="http://mostliked.tommygaessler.com/" target="blank">Whats your most liked photo on instagram?</a></p>
+		<p><a href="http://tommygaessler.com/mostliked" target="blank">Whats your most liked photo on instagram?</a></p>
 
 		<img src="images/competence/path.jpg" alt="Yasmin walking down path">
 
