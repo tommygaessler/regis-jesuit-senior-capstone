@@ -1,3 +1,5 @@
-# Regis Jesuit Senior Capstone
+# [Senior Capstone](https://seniorcapstone.herokuapp.com)
 
-I coded a website for my Regis Jesuit High School Senior Capstone Project! It has 2,500+ lines of code! I used HTML, PHP, SCSS, and jQuery to make it!
+Built usign php, jQuery, HTML, and Sass!
+
+Senior capstone project reflecting my life at Regis Jesuit High School.
