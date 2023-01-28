@@ -1,4 +1,4 @@
-# [Senior Capstone](https://seniorcapstone.herokuapp.com)
+# [Senior Capstone](https://capstone.tommygaessler.com)
 
 Built usign php, jQuery, HTML, and Sass!
 
